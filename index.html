@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Let's make a map with D3.js!</title>
+      <link rel="stylesheet" href="styles.css" />
+      <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+      <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+   </head>
+   <body>
+      <svg width="960" height="500"></svg>
+      <script>
+         (function (d3, topojson) {
+            "use strict";
+
+            const svg = d3.select("svg");
+
+            const projection = d3.geoMercator();
+            const pathGenerator = d3.geoPath().projection(projection);
+
+            svg.append("path")
+               .attr("class", "sphere")
+               .attr("d", pathGenerator({ type: "Sphere" }));
+
+            d3.json("https://asgmbv.github.io/index.json").then((data) => {
+               console.log("data:", data);
+               const countries = topojson.feature(data, data.objects.countries);
+               console.log("countries:", countries);
+               svg.selectAll("path")
+                  .data(countries.features)
+                  .enter()
+                  .append("path")
+                  .attr("class", "country")
+                  .style("fill", function (d) {
+                     if (d.properties.name === "Mongolia");
+                     let cases = d.properties.cases;
+                     let color;
+                     if (cases > 200000) {
+                        color = "#FF1700";
+                     } else if (cases > 100000) {
+                        color = "#FF7466";
+                     } else if (cases > 50000) {
+                        color = "#FFAF66";
+                     } else if (cases > 30000) {
+                        color = "#FEA300";
+                     } else if (cases > 10000) {
+                        color = "#FFE100";
+                     } else if (cases > 5000) {
+                        color = "#FFEC65";
+                     } else if (cases > 1000) {
+                        color = "#";
+                     } else if (cases > 500) {
+                        color = "#00CDFF";
+                     } else if (cases > 100) {
+                        color = "#65E1FE";
+                     } else if (cases === -1) {
+                        color = "#fff";
+                     }
+
+                     return color;
+                  })
+                  .attr("d", (d) => pathGenerator(d));
+            });
+         })(d3, topojson);
+      </script>
+   </body>
+</html>
