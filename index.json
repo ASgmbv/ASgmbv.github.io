@@ -74,7 +74,7 @@
                   [[59]]
                ],
                "id": "840",
-               "properties": { "name": "United States of America", "cases": -1 }
+               "properties": { "name": "United States of America", "cases": 1420000 }
             },
             {
                "type": "Polygon",
@@ -130,7 +130,7 @@
                "type": "Polygon",
                "arcs": [[-8, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]],
                "id": "180",
-               "properties": { "name": "Dem. Rep. Congo", "cases": -1 }
+               "properties": { "name": "Dem. Rep. Congo", "cases": 1169 }
             },
             {
                "type": "Polygon",
@@ -166,7 +166,7 @@
                "type": "Polygon",
                "arcs": [[-133, 134]],
                "id": "214",
-               "properties": { "name": "Dominican Rep.", "cases": -1 }
+               "properties": { "name": "Dominican Rep.", "cases": 11196 }
             },
             {
                "type": "MultiPolygon",
@@ -499,7 +499,7 @@
                "type": "Polygon",
                "arcs": [[-108, 308, -286, -129, -121, 309]],
                "id": "140",
-               "properties": { "name": "Central African Rep.", "cases": -1 }
+               "properties": { "name": "Central African Rep.", "cases": 143 }
             },
             {
                "type": "Polygon",
@@ -517,7 +517,7 @@
                "type": "Polygon",
                "arcs": [[-289, -315, 315]],
                "id": "226",
-               "properties": { "name": "Eq. Guinea", "cases": -1 }
+               "properties": { "name": "Eq. Guinea", "cases": 522 }
             },
             {
                "type": "Polygon",
@@ -607,7 +607,7 @@
                "type": "Polygon",
                "arcs": [[347, 348, 349, 350, 351]],
                "id": "784",
-               "properties": { "name": "United Arab Emirates", "cases": -1 }
+               "properties": { "name": "United Arab Emirates", "cases": 21084 }
             },
             {
                "type": "Polygon",
@@ -679,7 +679,7 @@
                "type": "Polygon",
                "arcs": [[-389, 391]],
                "id": "410",
-               "properties": { "name": "South Korea", "cases": -1 }
+               "properties": { "name": "South Korea", "cases": 10991 }
             },
             {
                "type": "Polygon",
@@ -992,7 +992,7 @@
                "type": "MultiPolygon",
                "arcs": [[[-510, 530]], [[531]]],
                "id": "826",
-               "properties": { "name": "United Kingdom", "cases": -1 }
+               "properties": { "name": "United Kingdom", "cases": 230000 }
             },
             {
                "type": "Polygon",
@@ -1112,7 +1112,7 @@
             {
                "type": "Polygon",
                "arcs": [[570, 571]],
-               "properties": { "name": "N. Cyprus", "cases": -1 }
+               "properties": { "name": "N. Cyprus", "cases": 905 }
             },
             {
                "type": "Polygon",
@@ -1153,7 +1153,7 @@
             {
                "type": "Polygon",
                "arcs": [[-115, -581, -583, 583]],
-               "properties": { "name": "Somaliland", "cases": -1 }
+               "properties": { "name": "Somaliland", "cases": 1219 }
             },
             {
                "type": "Polygon",
@@ -1171,13 +1171,13 @@
                "type": "Polygon",
                "arcs": [[-496, 586, 587]],
                "id": "070",
-               "properties": { "name": "Bosnia and Herz.", "cases": -1 }
+               "properties": { "name": "Bosnia and Herz.", "cases": 2181 }
             },
             {
                "type": "Polygon",
                "arcs": [[-481, -487, -494, 588, 589]],
                "id": "807",
-               "properties": { "name": "Macedonia", "cases": -1 }
+               "properties": { "name": "Macedonia", "cases": 1694 }
             },
             {
                "type": "Polygon",
@@ -1194,7 +1194,7 @@
             {
                "type": "Polygon",
                "arcs": [[-493, -594, -591, -589]],
-               "properties": { "name": "Kosovo", "cases": -1 }
+               "properties": { "name": "Kosovo", "cases": 919 }
             },
             {
                "type": "Polygon",
@@ -1206,7 +1206,7 @@
                "type": "Polygon",
                "arcs": [[-109, -310, -128, -579, -118, -586]],
                "id": "728",
-               "properties": { "name": "S. Sudan", "cases": -1 }
+               "properties": { "name": "S. Sudan", "cases": 203 }
             }
          ]
       },
