@@ -313,14 +313,7 @@ html {
   padding-top: 25px;
   text-decoration: underline;
 }
-.share {
-  color: black;
-  font-weight: normal;
-  font-size: 30px;
-  position: relative;
-  bottom: 23vh;
-  left: 42%;
-}
+
 .share:hover {
   color: #34abb1;
   transition: 0.5s;
@@ -338,3 +331,25 @@ html {
   flex-direction: column;
   justify-content: center;
 }
+
+#cont {
+  position: relative;
+}
+
+.share {
+  color: black;
+  font-weight: normal;
+  font-size: 30px;
+  /*position: absolute;
+  bottom: 10%;
+  left: 10%;*/
+}
+
+.more_div_cont {
+  display: flex;
+  justify-content: center;
+      position: absolute;
+    width: 100%;
+    bottom: 17%;
+}
+
