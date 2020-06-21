@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: bahnshrift;
-  src: url(/font/bahnshrift.ttf);
+  src: url(./font/bahnshrift.ttf);
 }
 ul,
 li {
